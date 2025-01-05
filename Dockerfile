@@ -10,4 +10,5 @@ RUN apt update && apt install -y -t experimental \
 # Install non-experimental dependencies
 RUN apt update && apt install -y \
      git=1:2.45.2-1 \
+     xml-twig-tools \
  && rm -rf /var/lib/apt/lists/*
